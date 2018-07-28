@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chris Viviers | Engineer, Inventor &amp; Student</title>
+    <!--FavIcon-->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <link href="css/input.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/spacing.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+  </head>
+
+  <body>
+   
+  <nav class="navbar is-fixed-top title is-5 custom-nav" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand"> 
+    <a class="navbar-item is-active" href="#1">
+        Chris Viviers
+    </a>
+    <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>   
+    <div class=" navbar-menu" id="navMenu">
+      
+               
+      <div class="navbar-end">
+          
+          
+          <a class="navbar-item " href="#2">
+            About Me
+          </a>
+          <a class="navbar-item" href="#3">
+            Education
+          </a>
+          <a class="navbar-item" href="#4">
+            Skills
+          </a>
+          
+          <a class="navbar-item" href="#5">
+            Experience
+          </a>
+          
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" href="#6">
+              Projects
+            </a>
+                <div class="navbar-dropdown is-boxed">
+                 
+                  <a class="navbar-item" onclick="myProj4()">
+                    Masters Thesis
+                  </a>
+                  <a class="navbar-item" onclick="myProj3()">
+                    Undergraduete Thesis
+                  </a>
+                  <a class="navbar-item" onclick="myProj2()">
+                    Heart Rate Monitor
+                  </a>
+                  <a class="navbar-item" onclick="myProj1()">
+                    Tachograph
+                  </a>
+                </div>
+          </div>
+          <a class="navbar-item" href="#7">
+            Contact
+          </a>
+      </div>
+    </div>
+  
+</nav>
+
+<section class="hero is-white has-text-centered" id="1">
+      <div class="hero-body">
+        <div class="container">
+          <div class="columns is-centered m-t-xl">
+            <div class="column">
+              
+              <h2 class="is-size-5-desktop has-text-weight-semibold">Hi there, I'm</h2>
+              <h1 class="is-size-1-desktop is-size-2-tablet is-size-3-mobile has-text-weight-semibold">Christiaan Viviers</h1>
+              <h2 class="is-size-5-desktop has-text-weight-semibold m-t-md label1">
+              I&#39;m an Electronics Engineer.</h2>
+              <h2 class="is-size-5-desktop has-text-weight-semibold m-t-md label1">
+               I am driven by Innovation. </h2>
+              <h2 class="is-size-5-desktop has-text-weight-semibold m-t-md label1">
+               Always Learning, Always Evolving.</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-foot m-t-lg">
+        <div class="container main-image"><img class="is-bottom" src="img/Draw.png"></div>
+      </div>
+    </section>
+
+<section id="2" class="hero is-large is-primary is-bold has-text-centered">
+<div class="hero-body">
+<div class="container">
+        <div class="columns is-centered">
+          <div class="column is-three-fifths">
+            <h1 class="title is-spaced is-size-3-desktop is-size-4-mobile">Nice to meet you!</h1>
+            <h2 class="subtitle is-size-5-desktop">Thank you for taking an interest in me and my accomplishments over the past decade (or so). Soon you will find out where my passions lie, what kind of skills I have and what I have achieved in my professional journey thus far.</h2>
+          </div>
+        </div>
+      </div>
+</div>
+
+   </section>
+
+
+    <section class="section skills">
+      <div class="container">
+        <div class="box custom-box ">
+          <div class="content p-t-lg p-b-lg">
+              <h2 class="subtitle has-text-centered p-b-lg">A bit about myself..</h2>
+              <div class="tile is-ancestor is-vertical">
+                <div class="tile is-parent">
+                  <div class="tile is-child">
+                <article class="media">
+                  <figure class="media-left">
+                    <span class="icon has-text-centered is-large has-text-primary">
+                      <i class="fas fa-3x fa-user-ninja"></i>                
+                     </span>
+                  </figure>
+                  <div class="media-content">
+                    <div class="content">
+                      <p>
+                        <strong>Name:</strong>
+                        <br>
+                        Christiaan Günter Alwyn Viviers
+                      </p>
+                    </div>
+                  </div>
+                </article>
+                </div>
+                <div class="tile is-child is-vertical">
+                <article class="media">
+                  <figure class="media-left">
+                    <span class="icon has-text-centered is-large has-text-primary">
+                                      
+                                     <i class="fas fa-3x fa-graduation-cap"></i>
+                                  </span>
+                  </figure>
+                  <div class="media-content">
+                    <div class="content">
+                      <p>
+                        <strong>Education level:</strong>
+                        <br>
+                        M.Eng (Electronic)
+                      </p>
+                    </div>
+                  </div>
+                </article>
+                </div>
+                <div class="tile is-child">
+                <article class="media">
+                  <figure class="media-left">
+                    <span class="icon has-text-centered is-large has-text-primary">      
+                        <i class="fas fa-3x fa-globe-africa"></i>
+                    </span>
+                  </figure>
+                  <div class="media-content">
+                    <div class="content">
+                      <p>
+                        <strong>Nationality:</strong>
+                        <br>
+                        South African
+                      </p>
+                    </div>
+                  </div>
+                </article>
+                </div>
+                  
+                </div>
+
+                <div class="tile is-parent">
+                  <div class="tile is-child is-4 profile-picture">
+                      <figure class="image is-4by4 ">
+                        <img src="img/pp.jpg">
+                      </figure>
+                  
+                    </div>
+                    <div class="tile is-child is-8">
+                    <strong>What else?</strong>
+                    <p>
+                      I am a recently graduated technology enthusiast with a never-ending desire to learn new things. I believe in the value of an open-minded perspective and know that learning new things can be through engaging with new cultures and working in different environments. I always approach problems, heads on, with solutions that meet goals and achieves success. My strengths lie in my abilities to take charge when working with others and effectively implementing decisions. Given the opportunity, through hard work and determination, I always produce results exceeding expectations.
+                    </p>
+                    <a class="button is-primary is-outlined" href="Christiaan Viviers CV.pdf" download>Download CV</a>
+                    </div>
+
+                </div>
+                
+                </div>      
+          </div>
+        </div>
+      </div>
+    </section>
+
+ <section class="section" id="3">
+     <div class="container is-narrow custom-box has-text-centered">
+      
+   
+       <div class="columns is-centered">
+          <div class="column is-three-fifths">
+            <h1 class="title is-size-4 is-spaced is-size-3-desktop is-size-4-mobile">My (Formal) Education</h1>
+            <h2 class="subtitle is-size-5-desktop m-t-md">Although I chose to specialize as an Electronics Engineer, at heart I consider myself an inventor. Aside from what was expected in the classroom, from an early age, I have always loved to analyze, dismantle and tinker with all kinds of gadgets and gismos. Ever since I can remember, there has always been this urge in me to figure out how things work and create my own awesome gadgets. I am not only defined by the formal education that I have received but also believe that I have been shaped by many personal experiences.</h2>
+          </div>
+        </div>
+      </div>
+     
+      <div class="container is-narrow">
+        <div class="box">
+          <div class="content p-t-lg">
+            <article class="media">
+              <figure class="media-left">
+                <p class="image is-128x128 is-horizontal-center p-t-lg">
+                  
+                  
+                  <a href="https://www.sun.ac.za/english" target="_blank"><img src="img/universiteit_stellenbosch_university_01.png" alt="Stellenbosch University logo"></a>
+                </p>
+                
+              </figure>
+
+              <div class="media-content">
+                <div class="field">
+                  <p class="control">
+                    <h2 class="title is-size-5 is-spaced">Masters Degree in Electrical and Electronic Engineering</h2>
+                    <h6 class="subtitle is-size-6 is-spaced">Jan 2016 - Mar 2018</h6>
+                    
+                    <p>Graduated Cum Laude. Specialization: biotechnology.</p>
+                    <p>Research-based Master’s program. Thesis Title: The Design and Fabrication of an Autophagy Flux Biosensor </p>
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="media">
+              <figure class="media-left ">
+                <p class="image is-128x128 is-horizontal-center ">
+                  <a href="https://eu.udacity.com/"><img src="img/udacity.jpg" alt="udacity logo"></a>
+                </p>
+                
+              </figure>
+              <div class="media-content">
+                <div class="field">
+                  <p class="control">
+                    <h2 class="title is-size-5 is-spaced">Completed a Full Stack Web Development course, Udacity.</h2>
+                    <h6 class="subtitle is-size-6 is-spaced">Mar 2018 - May 2018</h6>
+                    
+                    <p>The degree focused on creating server-side, data-driven web applications that support any front-end and can scale to support a large user base.</p>
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="media">
+              <figure class="media-left">
+                <p class="image is-128x128 is-horizontal-center p-t-lg">
+                  
+                  <a href="https://www.coursera.org/"><img src="img/coursera.jpg" alt="coursera logo"></a>
+                  
+                </p>
+                
+              </figure>
+              <div class="media-content">
+                <div class="field">
+                  <p class="control">
+                    <h2 class="title is-size-5 is-spaced">Completed a Machine Learning Course</h2>
+                    <h6 class="subtitle is-size-6 is-spaced">Aug 2017 - Oct 2017</h6>
+                    <p>This course provided a broad introduction to machine learning, datamining, and statistical pattern recognition. Topics included: (i) Supervised learning (parametric/non-parametric algorithms, support vector machines, kernels, neural networks). (ii) Unsupervised learning (clustering, dimensionality reduction, recommender systems, deep learning). (iii) Best practices in machine learning (bias/variance theory; innovation process in machine learning and AI). The course also included numerous case studies and applications, so that I could learn how to apply learning algorithms to build smart robots (perception, control), text understanding (web search, anti-spam), computer vision, medical informatics, audio, database mining, and other areas.</p>
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="media">
+              <figure class="media-left">
+                <p class="image is-128x128 is-horizontal-center p-t-lg">
+                  <a href="https://www.sun.ac.za/english" target="_blank"><img src="img/universiteit_stellenbosch_university_01.png" alt="Stellenbosch University"></a>
+                </p>
+                
+              </figure>
+              <div class="media-content">
+                <div class="field">
+                  <p class="control">
+                    <h2 class="title is-size-5 is-spaced">Bachelor's Degree in Electrical and Electronic Engineering</h2>
+                    <h6 class="subtitle is-size-6 is-spaced">Feb 2012 - Dec 2015</h6>
+
+                    
+                    <p>Graduated Bachelor's Degree in Electrical and Electronic Engineering, Informatics specialization, Stellenbosch University. Thesis: Development of a Resistive Microfluidic Sensing Device for Pathogen Detection.</p>
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="media">
+              <figure class="media-left">
+                <p class="image is-128x128 is-horizontal-center ">
+                  
+                  
+                  <a href="http://www.oudhs.com/"><img src="img/Oudtshoorn.jpg" alt="Oudtshoorn high school logo"></a>
+                </p>
+                
+              </figure>
+              <div class="media-content">
+                <div class="field">
+                  <p class="control">
+                    <h2 class="title is-size-5 is-spaced">High School Diploma Acquired</h2>
+                    <h6 class="subtitle is-size-6 is-spaced">Jan 2007 - Dec 2011</h6>
+                    
+                    <p>Graduated High School, Oudtshoorn High School, South Africa. Studies included: Mathematics, Science, Accounting, Biology, Information Technology, Afrikaans Home Language, English Home Language.</p>
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="4" class="section skills has-background-primary p-t-xl">
+     <div class="container is-narrow has-text-centered p-t-xl ">
+      
+   
+       <div class="columns is-centered">
+          <div class="column is-three-fifths white-color ">
+            <h1 class="title is-size-4 is-spaced is-size-3-desktop is-size-4-mobile">My Professional Skills</h1>
+            <h6 class="subtitle is-size-4 is-spaced">“Never stop learning” - C. Viviers</h6>
+            <h2 class="subtitle is-size-5-desktop">One of the best things about tackling a demanding problem is learning about all the cool ways in which it can be solved. My passion in research and problem-solving pushes me to never stop learning.</h2>
+          </div>
+        </div>
+      </div>
+     </div>
+      <div class="container is-narrow m-t-xl">
+        <div class="box">
+          <div class="content p-t-lg">
+         
+      <div class="columns is-centered  has-text-centered">
+              <div class="column">
+              <figure class="image has-text-primary"><i class="fas fa-3x fa-language"></i></figure>
+                <h1 class="title is-size-4 is-spaced">Language Skills</h1>
+                <p>Communication is key to successful projects and relationships. I have invested myself in obtaining the sufficient language proficiency to be able to effectively communicate on a profesional and technical level.</p>
+                <p class="list-title has-text-primary has-text-weight-normal">My Language Proficiency:</p>
+                <ul class="custom-ul">
+                  <li><strong>English:</strong> Fluent, written and verbally</li>
+                  <li><strong>Afrikaans:</strong> Fluent, written and verbally</li>
+                  <li><strong>Dutch:</strong> Basic</li>
+                </ul>
+              </div>
+              <div class="column ">
+              <figure class="image has-text-primary"><i class="fas fa-3x fa-street-view"></i></figure>
+                <h1 class="title is-size-4 is-spaced">Overview</h1>
+                <p>I am a well rounded person with a large set of skills compared to my peers. I always stride to be better and exceed what is expected from me.</p>
+                <p class="list-title has-text-primary has-text-weight-normal">My Strengths:</p>
+                <div class="prog-title">Software Engineering</div>
+
+              <progress class = "progress is-primary" value="90" max="100">90%</progress>
+              <div class="prog-title">Electronic Design</div>
+              <progress class = "progress is-primary" value="80" max="100">80%</progress>
+              <div class="prog-title">Research</div>
+              <progress class = "progress is-primary" value="95" max="100">95</progress>
+              <div class="prog-title">Critical Thinking & Teamwork</div>
+              <progress class = "progress is-primary" value="90" max="100">90%</progress>
+              </div>
+              </div>
+            <div class="columns is-centered has-text-centered m-t-xl">
+              <div class="column ">
+                <figure class="image has-text-primary"><i class="fas fa-3x fa-calculator"></i></figure>
+                <h1 class="title is-size-4 is-spaced">Platforms</h1>
+                <p>The projects I've worked on has allowed me to explore a bunch of designing platforms.</p>
+                <p class="title is-size-6 has-text-primary">These include:</p>
+                <ul class="custom-ul">
+                  <li>MS Office</li>
+                  <li>Blender</li>
+                  <li>Unity</li>
+                  <li>AutoCad: Inventor</li>
+                  <li>Eagle & Altium PCB</li>
+                  <li>Git Version Control</li>
+                  <li>Linux - Ubuntu</li>
+                </ul>
+              </div>
+              <div class="column">
+                <figure class="image has-text-primary"><i class="fas fa-3x fa-file-code"></i></figure>
+                <h1 class="title is-size-4 is-spaced">Coding Languages</h1>
+                <p>I value simple content structure, clean design patterns, and thoughtful interactions.</p>
+                <p class="title is-size-6 has-text-primary">Languages I speak:</p>
+                
+                <ul  class="custom-ul">
+                  <li>Python</li>
+                  <li>Matlab</li>
+                  <li>HTML & CSS</li>
+                  <li>JavaScript</li>
+                  <li>PHP</li>
+                  <li>C/C++</li>
+                  <li>Java</li>
+                  <li>VHDL</li>
+                  <li>Sass</li>
+                </ul>
+              </div>
+              <div class="column"> 
+                <figure class="image has-text-primary"><i class="fas fa-3x fa-magic"></i></figure>
+                <h1 class="title is-size-4 is-spaced">Other Expertise</h1>
+                <p>Working on projects that enable personal growth is essential to me. As such, I have had the oppurtunity to gain skills in a diverse set of fields.</p>
+                <p class="title is-size-6  has-text-primary">Some of my hard skills:</p>
+                
+                <ul  class="custom-ul">
+                  <li>Antibody Work</li>
+                  <li>Cell Culture</li>
+                  <li>Lithography</li>
+                  <li>Embeded Software</li>
+                  <li>Electronic Hardware Development</li>
+                  <li>Microscopy</li>
+                  <li>Machine Learning & AI</li>
+                  <li>Full Stack Web Development</li>
+         
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+  
+
+
+<section class="section" id="5">
+    <div class="container has-text-centered">
+    <div class="columns is-centered">
+          <div class="column is-three-fifths">
+            <h1 class="title is-size-4 is-spaced is-size-3-desktop is-size-4-mobile">My Work Experience</h1>
+            <h6 class="subtitle is-size-4 is-spaced">“The more you do, the more you get done.” - Grandpa</h6>
+            <h2 class="subtitle is-size-5-desktop">I am constantly on the lookout for promising opportunities and places where I can apply my skills to solve problems.</h2>
+          </div>
+        </div>
+      
+      <div class="columns is-mobile is-centered m-t-xl">
+
+        <div class="column is-two-fifths m-r-lg">
+          <div class="tile is-ancestor is-vertical">
+          <article class="tile is-child m-b-xl">
+            <h2 class="title is-size-5 is-spaced"><a href="https://www.yacht.nl/" target="_blank">Yacht</a> Engineering Traineeship</h2>
+            <h6 class="subtitle is-size-6 is-spaced">June 2018 - Present</h6>
+            <p>I am a part of a three-year program designed by Yacht to accelerate personal growth. The goal is to develop specialists engineering skills through intercompany client projects while developing leadership, management and other soft skills through active coaching and guidance.</p>
+          </article>
+          <hr class="style-one">
+          <article class="tile is-child ">
+            <h2 class="title is-size-5 is-spaced">Student Assistant at <a href="https://www.sun.ac.za/english" target="_blank">Stellenbosch University</a></h2>
+            <h6 class="subtitle is-size-6 is-spaced">Jan 2016 - Mar 2018</h6>
+            <p>One of the best things about tackling a demanding problem is learning about all the cool ways in which it can be solved. I enjoy research and problem solving.</p>
+          </article>  
+          <hr class="style-one"> 
+          </div>
+        </div>
+        
+        <div class="column is-two-fifths m-l-lg">
+          <div class="tile is-ancestor is-vertical">
+          
+          <article class="tile is-child">
+            <h2 class="title is-size-5 is-spaced"><a href="https://www.evermoreza.com/" target="_blank">Evermore ZA</a> Assistant Buyer</h2>
+            <h6 class="subtitle is-size-6 is-spaced">Mar 2018 - May 2018</h6>
+            <p>I assisted in the procurement process. We visited various product manufactures and their showrooms to acquire products of interest for Evermore ZA.</p>
+          </article>  
+        
+          <hr class="style-one">
+          <article class="tile is-child ">
+            <h2 class="title is-size-5 is-spaced">Researcher at <a href="https://www.sun.ac.za/english" target="_blank">Stellenbosch University</a></h2>
+            <h6 class="subtitle is-size-6 is-spaced">Jan 2016 - June 2016</h6>
+            <p>Myself and a team of researchers developed a microfiber-based biosensor for the detection of pathogenic organisms (E. coli) in water.</p>
+          </article>
+           <hr class="style-one">
+          </div>
+
+        </div>
+        </div>
+        
+      </div>
+     
+    </div>
+  </section>
+
+<section class="section projects is-medium is-white has-text-centered" id="6">
+  <div class="container is-narrow">
+    <h1 class="title is-spaced is-size-3-desktop is-size-4-mobile">My Recent Work</h1>
+        <h2 class="subtitle is-size-5-desktop">Here are a few recent projects. Want to see more? <a href="mailto:chrisviviers1@gmail.com">Email me</a>.</h2>
+          <div class="project-grid"> 
+              <div class="columns is-mobile is-multiline is-centered">
+                <div class="column is-narrow is-one-third-desktop is-half-mobile">
+                  <figure class="image is-3by2"><img class="project-thumb" src="img/EDesign/Tachograph.png">
+                      <figcaption>
+                        <h1 class="title is-size-5 is-size-4-widescreen">Built a model to simulate a car's electronic system.</h1><a onclick="myProj1()" class="button is-primary is-outlined is-rounded" ><span>Learn More</span><span class="icon"><svg class="svg-inline--fa fa-angle-right fa-w-8" aria-hidden="true" data-prefix="fas" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" data-fa-i2svg=""><path fill="currentColor" d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path></svg></span></a>
+                      </figcaption>
+                      <div class="overlay"></div>
+                    </figure>
+                </div>
+                <div class="column is-narrow  is-one-third-desktop is-half-mobile">
+                  <figure class="image is-3by2"><img class="project-thumb" src="img/EDesign2/Circuit.jpg">
+                    <figcaption>
+                      <h1 class="title is-size-5 is-size-4-widescreen">Designed and built a heart rate monitor.</h1><a onclick="myProj2()" class="button is-primary is-outlined is-rounded"><span>Learn More</span><span class="icon"><svg class="svg-inline--fa fa-angle-right fa-w-8" aria-hidden="true" data-prefix="fas" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" data-fa-i2svg=""><path fill="currentColor" d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path></svg></span></a>
+                    </figcaption>
+                    <div class="overlay"></div>
+                  </figure>
+                </div>
+                <div class="column is-narrow  is-one-third-desktop is-half-mobile">
+                  <figure class="image is-3by2"><img class="project-thumb" src="img/Skripsie/FiberMount_cover.png">
+                      <figcaption>
+                        <h1 class="title is-size-5 is-size-4-widescreen">Development of a Resistive Microfluidic Sensing Device for Pathogen Detection</h1><a class="button is-primary is-outlined is-rounded" onclick="myProj3()" ><span>Learn More</span><span class="icon"><svg class="svg-inline--fa fa-angle-right fa-w-8" aria-hidden="true" data-prefix="fas" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" data-fa-i2svg=""><path fill="currentColor" d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path></svg></span></a>
+                      </figcaption>
+                      <div class="overlay"></div>
+                    </figure>
+                </div>
+                <div class="column is-narrow is-one-third-desktop is-half-mobile">
+                  <figure class="image is-3by2"><img class="project-thumb" src="img/Masters/Holder_cover.jpg">
+                    <figcaption>
+                      <h1 class="title is-size-5 is-size-4-widescreen">Designed and Fabricated an Autophagy Flux Biosensor.</h1><a class="button is-primary is-outlined is-rounded" onclick="myProj4()"><span>Learn More</span><span class="icon"><svg class="svg-inline--fa fa-angle-right fa-w-8" aria-hidden="true" data-prefix="fas" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" data-fa-i2svg=""><path fill="currentColor" d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path></svg></span></a>
+                    </figcaption>
+                    <div class="overlay"></div>
+                  </figure>
+                </div>
+              </div>
+          </div>
+          <div class="columns is-centered m-t-lg">
+          <div class="column"><a class="button is-primary is-outlined is-rounded is-medium" href="https://github.com/Chris-On-PC" target="_blank"><span>See more on Github</span></a></div>
+        </div>
+  </div>
+</section>
+
+
+   
+
+   
+
+
+  <footer class="section has-background-primary is-small has-text-centered white-color" id="7">
+      <div class="container is-narrow">
+      <h1 class="title is-size-4-desktop">Chris Viviers | Engineer, Inventor &amp; Student.</h1>
+        
+        <div class="columns is-centered"> 
+          <div class="column is-one-third">
+            <h2 class="title is-size-6-desktop">Always Learning, Always Evolving.</h2>
+          </div>
+        </div>
+        <div class="social-icons">
+          <p class="field"><a class="button is-medium custom-icon" href="https://twitter.com/Chris_Viviers" target="_blank"><span class="icon is-small"><i class="fab fa-twitter fa-fw"></i></span></a><a class="button is-medium custom-icon" href="https://www.linkedin.com/in/chrisviviers/" target="_blank"><span class="icon is-small"><i class="fab fa-linkedin-in fa-fw"></i></span></a><a class="button is-medium custom-icon" href="https://github.com/Chris-On-PC" target="_blank"><span class="icon is-small"><i class="fab fa-github fa-fw"></i></span></a><a class="button is-medium custom-icon" href="https://www.facebook.com/christiaan.viviers.1" target="_blank"><span class="icon is-small"><i class="fab fa-facebook-f fa-fw"></i></span></a><a class="button is-medium custom-icon" href="mailto:chrisviviers1@gmail.com" target="_blank"><span class="icon is-small"><i class="far fa-envelope fa-fw"></i></span></a></p>
+        </div>
+        <h2 class="subtitle is-size-6-desktop copyright m-t-sm">Handcrafted by me<span class="icon has-white-text" style="vertical-align:middle;"><i class="far fa-copyright"></i></span>2018</h2>
+        <div class="made-by-bulma has-background-primary"><a href="https://bulma.io"><img src="https://bulma.io/images/made-with-bulma--white.png" alt="Made with Bulma" width="163" height="31"></a></div>
+      </div>
+    </footer>
+  
+    <a onclick="contact()" id="fixedbutton"><i class="far fa-3x fa-envelope"></i></a>
+
+      <div id = "Tachograph" class="modal">
+      <div class="modal-background"></div>
+        <div class="modal-card">
+        <header class="modal-card-head">
+          <p class="modal-card-title">Tachograph</p>
+          <button class="delete" aria-label="close" onclick="myProj1()"></button>
+        </header>
+          <section class="modal-card-body has-text-justified">
+          <p>
+            This project was developed as part of a University course. I developed a system to represent a car with various inputs and output systems. A RL-78 microprocessor was used to perform arithmetic and logic operations of the system. It was connected to an LCD screen to provide feedback to the user of the state of the car model and its various components. 
+          </p>
+          <br>
+            <strong>Some of the skills acquried:</strong>
+            <p> Design philosophy; design techniques; milestones; data interpretation; development of simple software and hardware in order to demonstrate a small functional microprocessor system; debugging of digital circuits; report writing.</p>
+             <br>
+          <strong>Images of the Project:</strong>
+            <div class="columns is-centered has-text-centered ">
+              <div class="column is-three-fifths">
+                <figure class="image m-t-md">
+                  <img src="img/EDesign/Tachograph.png">
+                </figure>
+
+                <figure class="image m-t-md">
+                  <img src="img/EDesign/DemoProgram.png">
+                </figure>
+
+                <figure class="image m-t-md">
+                  <img src="img/EDesign/Accalerometer.jpg">
+                </figure>
+              </div>
+            </div>
+
+            
+                       
+          </section>
+        <footer class="modal-card-foot">
+          
+          <button class="button is-white is-outlined is-rounded"  onclick="myProj1()">Close</button>
+        </footer>
+        </div>
+      </div>
+
+      <div id = "HeartRate" class="modal">
+      <div class="modal-background"></div>
+        <div class="modal-card">
+        <header class="modal-card-head">
+          <p class="modal-card-title">Heart Rate Sensor</p>
+          <button class="delete" aria-label="close" onclick="myProj2()"></button>
+        </header>
+          <section class="modal-card-body has-text-justified">
+          <p>
+            I developed a heart rate monitor sensor as part of a univeristy course. I made use of light sensitive resistors to measure the flow of blood through your finger. The signal from the resistor was amplified and filtered before being passed to a PC where the signal was displayed in a GUI. The sensor was developed to be mobile and was thus, battery powered.</p>
+            <br>
+            <strong>Some of the skills acquried:</strong> 
+            <p>Design of a complex electronic system with circuit and software components; problem solving; application of scientific and engineering knowledge; design techniques for software and circuits; experiments; data-interpretation; fault diagnosis; use of equipment and software; independent learning; professional communication.</p>
+             <br>
+          <strong>Images of the Project:</strong>
+            <div class="columns is-centered has-text-centered ">
+              <div class="column is-three-fifths">
+                <figure class="image m-t-md">
+                  <img src="img/EDesign2/Circuit.jpg">
+                </figure>
+
+                <figure class="image m-t-md">
+                  <img src="img/EDesign2/Finger.jpg">
+                </figure>
+
+                <figure class="image m-t-md">
+                  <img src="img/EDesign2/Gui1.png">
+                </figure>
+                <figure class="image m-t-md">
+                  <img src="img/EDesign2/OwnHeart.png">
+                </figure>
+              </div>
+            </div>
+          </section>
+        <footer class="modal-card-foot">
+          
+          <button class="button is-white is-outlined is-rounded"  onclick="myProj2()">Close</button>
+        </footer>
+        </div>
+      </div>
+
+      <div id = "Skripsie" class="modal">
+      <div class="modal-background"></div>
+        <div class="modal-card">
+        <header class="modal-card-head">
+          <p class="modal-card-title">Resistive Microfluidic Device for Pathogen Detection</p>
+          <button class="delete" aria-label="close" onclick="myProj3()"></button>
+        </header>
+          <section class="modal-card-body has-text-justified">
+          <p>
+            For my undergraduate thesis I got given the task to investiagte the possibilities of using resisitve sensing for pathogen detection. As part of the research project I designed a small circuit to supply a constant potential to a specially designed microfiber-based resistor. The signal obtained from exposing the specially engineered transducers to a biomolecule under investigation was then relayed and analyzed to enable detection.</p>
+            <div class="columns is-centered has-text-centered ">
+              <div class="column is-three-fifths">
+                <figure class="image m-t-md">
+                  <img src="img/Skripsie/FiberMount.PNG">
+                </figure>
+
+                <figure class="image m-t-md">
+                  <img src="img/Skripsie/Fibers.PNG">
+                </figure>
+
+                <figure class="image m-t-md">
+                  <img src="img/Skripsie/Setup.PNG">
+                </figure>
+                <figure class="image m-t-md">
+                  <img src="img/Skripsie/mount.jpg">
+                </figure>
+              </div>
+            </div>
+          </section>
+        <footer class="modal-card-foot">
+          
+          <button class="button is-white is-outlined is-rounded"  onclick="myProj3()">Close</button>
+        </footer>
+        </div>
+      </div>
+
+      <div id = "Masters" class="modal">
+      <div class="modal-background"></div>
+        <div class="modal-card">
+        <header class="modal-card-head">
+          <p class="modal-card-title">Autophagy Flux Biosensor</p>
+          <button class="delete" aria-label="close" onclick="myProj4()"></button>
+        </header>
+          <section class="modal-card-body has-text-justified">
+          <p>
+           During my masters degree I developed a mobile sensor for protein detection. This required extensive embedded hardware and software design. The sensor made use of intelligently designed transducers being supplied of very low current. The signal obtained from the various transducers investigated when exposed to the bioelements of interest were then filtered, and using a high-precision ADC sent to a microcontroller. The sensor was manufactured to fit on a small PCB and was connected to a transducer holder where the aqueous testing samples could be added. Via a USB connection the measurements were then relayed to Python-based computer graphical user interface. The GUI also enabled control over the sensor and all of its components. 
+          </p>
+          
+          <br>
+          <strong>Images of the Project:</strong>
+            <div class="columns is-centered has-text-centered ">
+              <div class="column is-three-fifths">
+                <figure class="image m-t-md">
+                  <img src="img/Masters/Complete Setup.jpg">
+                </figure>
+
+                <figure class="image m-t-md">
+                  <img src="img/Masters/Fibers.png">
+                </figure>
+
+                <figure class="image m-t-md">
+                  <img src="img/Masters/microscopy.jpg">
+                </figure>
+                <figure class="image m-t-md">
+                  <img src="img/Masters/Test.JPG">
+                </figure>
+                <figure class="image m-t-md">
+                  <img src="img/Masters/Laptop.jpg">
+                </figure>
+                <figure class="image m-t-md">
+                  <video  controls>
+                    <source src="img/Masters/vid.mp4" type="video/mp4">
+                      Your browser does not support the video tag.
+                    </video>
+                </figure>
+
+              </div>
+            </div>
+            
+           
+          </section>
+        <footer class="modal-card-foot">
+          
+          <button class="button is-white is-outlined is-rounded"  onclick="myProj4()">Close</button>
+        </footer>
+        </div>
+      </div>
+
+    <div id = "Contact" class="modal">
+      <div class="modal-background"></div>
+        <div class="modal-card">
+        <header class="modal-card-head">
+          <p class="modal-card-title">Get In Touch</p>
+          <button class="delete" aria-label="close" onclick="contact()"></button>
+        </header>
+            
+            <section class="modal-card-body has-text-justified">
+             
+            <form action="" id="myform">
+            
+            <div class="field">
+                <label class="label">Name & Surname</label>
+                <div class="control">
+                  <input class="input" type="text" placeholder="Text input" name="name" id="namef3" required>
+                </div>
+              </div>
+              <div class="field">
+                <label class="label" for="email">Email</label>
+                <div class="control has-icons-left has-icons-right">
+                  <input class="input" type="email"  placeholder="hello@something.something" name="email" id="emailf3" required>
+                  <span class="icon is-small is-left">
+                    <i class="fas fa-envelope"></i>
+                  </span>
+                  <span class="icon is-small is-right">
+                    <i class="fas fa-exclamation-triangle"></i>
+                  </span>
+                </div>
+                
+              </div>
+
+              <div class="field">
+                <label class="label">Subject</label>
+                <div class="control">
+                  <input class="input" type="text" placeholder="Subject" name="subject" id="subjectf3"/>
+                </div>
+              </div>
+
+              <div class="field">
+                <label class="label">Message</label>
+                <div class="control">
+                  <textarea name="msg" id="msgf3" type="text" class="textarea" placeholder="Text Area" required></textarea>
+                </div>
+              </div>
+
+              <div class="g-recaptcha" id="rcaptcha" data-sitekey="6LekqWUUAAAAACZViR0598WX8nODPbrMmHWktLYS" data-callback="recaptcha_callback"></div>
+              
+              <div class="field is-grouped m-t-lg">
+                  
+                 <div class="control">
+                 <button disabled id="js_send" class="button is-primary is-outlined is-rounded" type="submit" onclick="submitmyform()">Submit</button>
+                 </div>
+                 
+                  <div class="control">
+                    <button class="button is-primary is-outlined is-rounded" onclick="contact()">Cancel</button>
+                  </div>
+                </div>
+                 <div id="response_goes_here"></div>
+              </form>
+
+              
+            </section>
+
+            <footer class="modal-card-foot">
+            <button class="button is-white is-outlined is-rounded"  onclick="contact()">Close</button>
+            </footer>
+        
+        </div>
+      </div>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script> 
+  <script src="js/main.js"></script>
+    <script>
+      sr.reveal('.label1', { duration: 1000 ,viewFactor: 0.8, opacity: 0,}, 500);
+
+    </script>
+  
+ 
+  </body>
+</html>
